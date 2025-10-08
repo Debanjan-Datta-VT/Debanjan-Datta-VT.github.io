@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-",
-          title: "",
+  },{id: "nav-curriculum-vitae",
+          title: "Curriculum Vitae",
           description: "Here are the key CV points for Debanjan Datta, PhD. Please download the PDF from the link provided.",
           section: "Navigation",
           handler: () => {

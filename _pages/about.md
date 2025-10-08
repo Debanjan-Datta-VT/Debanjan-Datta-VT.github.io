@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Amazon Web Service</a>. Address. Contacts. Motto. Etc.
+subtitle: Applied Scientist II, Amazon Web Service. 
 
 profile:
   align: right
   image: profile_pic.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Email: ddatta@vt.edu </p>
     <p>Seattle</p>
@@ -16,15 +16,6 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 Debanjan graduated with PhD in Computer Science from Virginia Tech in 2022, advised by Dr.Naren Ramakrishnan. His research
@@ -33,8 +24,3 @@ explainable AI and NLP. He has led and worked on research projects with real-wor
 domains and applications, along with cross-functional collaboration. His prior experience in software engineering lends to experience
 and interest in building ML based systems at production scale. His current work in AWS AutoML team involves designing scalable
 and effective solutions for a variety of ML problems across data types.
-
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-[Twitter|X](https://x.com/devDdata)

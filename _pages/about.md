@@ -27,8 +27,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `profile_pic.jpeg` and put it in the `img/` folder.
+Debanjan graduated with PhD in Computer Science from Virginia Tech in 2022, advised by Dr.Naren Ramakrishnan. His research
+interests includes general data mining and specific machine learning areas including anomaly detection, time series mining,
+explainable AI and NLP. He has led and worked on research projects with real-world, complex and large scale data from different
+domains and applications, along with cross-functional collaboration. His prior experience in software engineering lends to experience
+and interest in building ML based systems at production scale. His current work in AWS AutoML team involves designing scalable
+and effective solutions for a variety of ML problems across data types.
+
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+[Twitter|X](https://x.com/devDdata)

@@ -2,19 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: Applied Scientist II, Amazon Web Service. 
+subtitle: <b>Applied Scientist II</b>, Amazon Web Service. 
 
 profile:
   align: right
   image: profile_pic.jpeg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: ddatta@vt.edu </p>
-    <p>Seattle</p>
-    <p>WA</p>
+    <p>Seattle, WA</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+latest_posts:
+  enabled: false # disable showing blog posts on homepage
 
 ---
 

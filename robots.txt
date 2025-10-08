@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://debanjan-datta-vt.github.io/home/sitemap.xml
+Sitemap: https://debanjan-datta-vt.github.io/sitemap.xml

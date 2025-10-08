@@ -5,7 +5,7 @@
     "image": "",
     "email": "ddatta@vt.edu",
     "phone": "(408) 314-0878",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "A motivated AI/ML researcher and practitioner, who is passionate about delivering results through innovation and working backwards.",
     "location": {
       "city": "Seattle",
       "countryCode": "US",
@@ -56,25 +56,21 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Machine Learning",
+      "level": "PhD",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Machine Learning",
+        "AI",
+        "NLP",
+        "Deep Learning",
+        "Statistical Analysis",
+        "Big Data",
+        "Anomaly Detection"
       ]
     }
   ],
   "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
     {
       "language": "English",
       "fluency": "Fluent",
@@ -83,28 +79,27 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Applied Machine Learning",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "AI",
+        "Large Language Models",
+        "NLP",
+        "ML",
+        "Agentic AI"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Professor Naren Ramakrishnan",
+      "icon": "fa-solid fa-circle-user",
+      "reference": ""
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Gerald Friedland",
+      "icon": "fa-solid fa-circle-user",
+      "reference": ""
     }
   ]
 }

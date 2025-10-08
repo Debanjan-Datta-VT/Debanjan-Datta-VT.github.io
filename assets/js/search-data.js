@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "cv",
-          description: "CV",
+          description: "Here are the key CV points for Debanjan Datta, PhD. Please download the PDF from the link provided.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";

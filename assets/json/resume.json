@@ -13,6 +13,12 @@
     },
     "profiles": [
       {
+        "network": "Email",
+        "username": "ddatta@vt.edu",
+        "url": "mailto:ddatta@vt.edu",
+        "icon": "fa-solid fa-envelope"
+      },
+      {
         "network": "X",
         "username": "devDdata",
         "url": "https://twitter.com/devDdata"
@@ -20,8 +26,8 @@
       {
         "network": "LinkedIn",
         "username": "debanjan-d",
-        "url": "https://linkedin.com/debanjan-d"      }
-
+        "url": "https://linkedin.com/debanjan-d"
+      }
     ]
   },
   "work": [
@@ -94,12 +100,12 @@
     {
       "name": "Professor Naren Ramakrishnan",
       "icon": "fa-solid fa-circle-user",
-      "reference": ""
+      "reference": "Affiliation: Virginia Tech. Email: naren@cs.vt.edu"
     },
     {
-      "name": "Gerald Friedland",
+      "name": "Professor Gerald Friedland",
       "icon": "fa-solid fa-circle-user",
-      "reference": ""
+      "reference": "Affiliation: AWS, UC Berkeley. Email: fractor@eecs.berkeley.edu"
     }
   ]
 }

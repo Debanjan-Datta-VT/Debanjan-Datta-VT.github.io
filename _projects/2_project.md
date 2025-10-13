@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Agentic Memory for Long-Term Temporal Knowledge
+title: PEFT for LLM
 description: Enterprise Product Roadmap Project
 importance: 2
 category: Amazon Web Services
@@ -25,5 +25,5 @@ LLM finteuning,
 PEFT, 
 LoRA,
 Ditributed Training,
-Hyperparamter Search
+Hyperparamter Searchgit add 
 ---

@@ -108,7 +108,7 @@
       "reference": "Affiliation: AWS, UC Berkeley. Email: fractor@eecs.berkeley.edu"
     }
   ],
-  "Academic Service": [
+  "academic_service": [
     {
       "name": "Conferences",
       "icon": "fa-solid fa-file-lines",

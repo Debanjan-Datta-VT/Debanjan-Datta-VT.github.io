@@ -8,25 +8,15 @@ category: Amazon Web Services
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    *Problem statement*: Knnowledge represenattion & Retrieval for long-term learned temporal information in Agentic Memory
+    ---
+    
+    ---
+    *Business Impact*: This was a Summer internship project I mentored. 
     ---
 
-<div class="row justify-content-sm-center">
-<i class="fa-sharp fa-solid fa-hexagon-nodes"></i>
-This was a Summer internship project I mentored. 
-</div>
 
-<b>Problem statement:</b> For long-term learned knowledge how to efficiently represent information that captures temporal relationships ?
 
 
 

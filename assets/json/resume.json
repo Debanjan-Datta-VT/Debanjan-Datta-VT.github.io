@@ -107,5 +107,33 @@
       "icon": "fa-solid fa-circle-user",
       "reference": "Affiliation: AWS, UC Berkeley. Email: fractor@eecs.berkeley.edu"
     }
+  ],
+  "Academic Service": [
+    {
+      "name": "Conferences",
+      "icon": "fa-solid fa-file-lines",
+      "keywords": [
+      "IEEE International Conference on Data Mining (ICDM) 2022, 2023, 2024, 2025",
+      "International Conference on Data Mining (SDM) 2022, 2023, 2024",
+      "AutoML Conference 2023, 2024",
+      "ACM/IEEE ASONAM 2023, 2024",
+      "Annual AAAI Conference on Artificial Intelligence 2024, 2025, 2026",
+      "PAKDD 2024",
+      "ACM WSDM 2024 (Demo Track)",
+      "ACM SigKDD 2025 (Applied Data Science Track)",
+      "IEEE AIxSET 2024"
+      ]
+    },
+    {
+      "name": "Journal",
+      "icon": "fa-solid fa-book",
+      "keywords": [
+       "ACM Transactions on Intelligent Systems and Technology", 
+       "IEEE VIS 2021, 2022",
+       "IEEE Transactions on Big Data",
+       "Information Visualization",
+       "Data & Knowledge Engineering"
+      ]
+    }
   ]
 }

@@ -61,8 +61,8 @@ ninja.data = [{
           description: "Inten Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-agentic-memory-for-long-term-temporal-knowledge",
-          title: 'Agentic Memory for Long-Term Temporal Knowledge',
+            },},{id: "projects-peft-for-llm",
+          title: 'PEFT for LLM',
           description: "Enterprise Product Roadmap Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";

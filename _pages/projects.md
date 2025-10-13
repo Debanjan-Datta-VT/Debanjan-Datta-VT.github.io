@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 
 nav: false
 nav_order: 4
 display_categories: [Amazon Web Services, Graduate School]

@@ -58,12 +58,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-agentic-memory-for-long-term-temporal-knowledge",
           title: 'Agentic Memory for Long-Term Temporal Knowledge',
-          description: "Intern Project Summer 2024",
+          description: "(Mentored) Internship Project Summer 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-peft-for-llm",
-          title: 'PEFT for LLM',
-          description: "Enterprise Product Roadmap Project",
+            },},{id: "projects-parameter-efficient-finetuning-for-llm",
+          title: 'Parameter Efficient Finetuning for LLM',
+          description: "AWS Sagemaker Canvas Enterprise Project Roadmap",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",

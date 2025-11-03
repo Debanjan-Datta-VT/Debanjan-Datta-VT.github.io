@@ -58,7 +58,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-agentic-memory-for-long-term-temporal-knowledge",
           title: 'Agentic Memory for Long-Term Temporal Knowledge',
-          description: "Inten Project Summer 2025",
+          description: "Intern Project Summer 2024",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-peft-for-llm",

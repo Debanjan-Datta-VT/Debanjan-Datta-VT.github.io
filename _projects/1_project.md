@@ -16,8 +16,11 @@ related_publications: true
         <div class="card-body">
           <h2 class="card-title text-center mb-4">Project Overview</h2>
           <p class="lead text-center">
+          <b>Role:</b>  Project lead and mentor, for the Summer 2025 internship project at AWS.
+          </p>
+          <p class="lead text-center">
             An advanced agentic memory system designed for knowledge representation and retrieval 
-            of long-term temporal information, developed during a Summer 2024 internship at AWS.
+            of long-term temporal information.
           </p>
         </div>
       </div>
@@ -37,7 +40,7 @@ related_publications: true
           <p class="card-text">
             Knowledge representation and retrieval for long-term learned temporal information in Agentic Memory 
             systems presents unique challenges in maintaining context across extended time periods while ensuring 
-            efficient access to relevant historical data.
+            efficient access to relevant historical data. While prior works such have <i>conversational memory</i> 
           </p>
         </div>
       </div>
@@ -76,10 +79,10 @@ related_publications: true
       <div class="card h-100">
         <div class="card-body">
           <ul class="list-unstyled">
-            <li><i class="fas fa-check text-success me-2"></i><strong>Memory Architecture:</strong> Advanced temporal knowledge representation</li>
-            <li><i class="fas fa-check text-success me-2"></i><strong>Retrieval System:</strong> Efficient long-term information access</li>
-            <li><i class="fas fa-check text-success me-2"></i><strong>Agentic Framework:</strong> Autonomous memory management</li>
-            <li><i class="fas fa-check text-success me-2"></i><strong>Integration:</strong> AWS cloud infrastructure compatibility</li>
+            <li><strong>Memory Architecture:</strong> Advanced temporal knowledge representation</li>
+            <li><strong>Retrieval System:</strong> Efficient long-term information access</li>
+            <li><strong>Agentic Framework:</strong> Autonomous memory management</li>
+            <li><strong>Integration:</strong> AWS cloud infrastructure compatibility</li>
           </ul>
         </div>
       </div>
@@ -119,40 +122,3 @@ related_publications: true
       </div>
     </div>
   </div>
-
-  <!-- Project Timeline Section -->
-  <div class="row mb-4">
-    <div class="col-12">
-      <div class="card">
-        <div class="card-body">
-          <h3 class="card-title text-center mb-4">Project Timeline</h3>
-          <div class="timeline">
-            <div class="row">
-              <div class="col-md-3 text-center">
-                <div class="badge bg-primary p-2 mb-2">Phase 1</div>
-                <h6>Research & Analysis</h6>
-                <p class="text-muted small">Literature review and requirement analysis</p>
-              </div>
-              <div class="col-md-3 text-center">
-                <div class="badge bg-info p-2 mb-2">Phase 2</div>
-                <h6>Architecture Design</h6>
-                <p class="text-muted small">System architecture and component design</p>
-              </div>
-              <div class="col-md-3 text-center">
-                <div class="badge bg-warning p-2 mb-2">Phase 3</div>
-                <h6>Implementation</h6>
-                <p class="text-muted small">Core system development and testing</p>
-              </div>
-              <div class="col-md-3 text-center">
-                <div class="badge bg-success p-2 mb-2">Phase 4</div>
-                <h6>Evaluation</h6>
-                <p class="text-muted small">Performance analysis and optimization</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>

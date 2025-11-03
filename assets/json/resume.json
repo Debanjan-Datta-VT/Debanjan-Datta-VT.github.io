@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Debanjan Datta",
-    "label": "Applied ML Scientist",
+    "label": "Applied (Machine Learning) Scientist",
     "image": "",
     "email": "ddatta@vt.edu",
     "phone": "(408) 314-0878",
@@ -108,7 +108,7 @@
       "reference": "Affiliation: AWS, UC Berkeley. Email: fractor@eecs.berkeley.edu"
     }
   ],
-  "academic_service": [
+  "Academic-Service": [
     {
       "name": "Conferences",
       "icon": "fa-solid fa-file-lines",

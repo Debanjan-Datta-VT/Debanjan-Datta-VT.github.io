@@ -33,8 +33,8 @@ related_publications: true
       <div class="card h-100">
         <div class="card-body">
           <p class="card-text">
-            
-          </p>
+          The research problem was to find the correct set of hyperparmaters, and training setting for a range of SoTA LLM models to be trained through Parameter Efficient Finetuning (PEFT) methods.
+          </p>  
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@ related_publications: true
           <p class="card-text">
           </p>
           <ul class="mt-3">
-          <li> 1 </li>
+          <li> Allowing customers to finetune LLM models for business specific problems, with optimized cost and performance. This was part of AWS's managed AutoML offering.</li>
           </ul>
         </div>
       </div>
@@ -71,9 +71,10 @@ related_publications: true
       <div class="card h-100">
         <div class="card-body">
           <ul class="list-unstyled">
-            <li> Created a large scale dataset & benchmark for complex multi-step temporal question answering, involving multiple entities. </li>
-            <li> Innovative memory representation utilizing a novel formulation of knoweledge graph, that encodes temporal relationship.</li>
-            <li> Novel architecture for improved retrieval and ranking (Agentic RAG).</li>
+            <li> Designed and executed large scale experiments to understand effects of finetuning LLM using PEFT methods (LoRA, qLoRA), to uncover overall performance envelope and investigate failure conditions.</li>
+            <li> Deep dived into the hyperparameter landscape for PEFT with multiple methodologies, and performance profiling.</li>
+            <li> Analysed performance trade-offs, in applying PEFT on domain specific datasets in resource constrained environments.</li>
+            <li> Experimented with multiple distributed paradigns such as FSP, DDP and DP. </li>
           </ul>
         </div>
       </div>
@@ -92,7 +93,7 @@ related_publications: true
         <div class="card-body">
           <ul class="list-unstyled">
             <li>Large Language Models</li>
-            <li>Agentic Memory</li>
+            <li>PEFT</li>
           </ul>
         </div>
       </div>

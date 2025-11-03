@@ -631,6 +631,7 @@ jsonresume:
   - basics
   - work
   - education
+  - interests
   - publications
   - projects
   - volunteer
@@ -638,6 +639,5 @@ jsonresume:
   - certificates
   - skills
   - languages
-  - interests
   - references
   - academic_service

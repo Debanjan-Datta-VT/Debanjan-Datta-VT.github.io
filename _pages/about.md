@@ -20,10 +20,10 @@ latest_posts:
 
 ---
 
-Debanjan Datta graduated with PhD in Computer Science from Virginia Tech in 2022, advised by Dr.Naren Ramakrishnan, with a focus on Machine Learning. 
+Debanjan Datta graduated with a PhD in Computer Science from Virginia Tech in 2022, advised by Dr. Naren Ramakrishnan, with a focus on Machine Learning and Anomaly Detection.
 
+As an Applied Scientist II at Amazon Web Services, he specializes in developing enterprise-scale AI/ML solutions with a focus on **agentic systems and automated machine learning**. Currently part of AWS's Agentic organization, he focuses on initiatives in data processing agents and LLM-powered systems that democratize machine learning for business users. His research portfolio spans **anomaly detection, time series mining, NLP, and Large Language Models**, with extensive experience in building production-ready systems that handle complex, large-scale data across diverse domains. Recent work includes developing advanced agentic memory systems for long-term temporal knowledge, optimizing Parameter Efficient Fine-tuning (PEFT) methods for enterprise LLM deployment, and creating chat-based ML pipeline automation tools that enable non-technical users to leverage machine learning through intuitive interfaces.
 
-His research interests include general Data Mining and Machine Learning, with subject areas including anomaly detection, time series mining, explainable AI, NLP and LLMs. He has led and worked on research projects with real-world, complex, and large-scale data from different domains and applications, along with cross-functional collaboration.  He is currently part of Agentic organization in AWS, with focus on data processing agents. As part of AWS Sagemaker's managed AutoML service team, he designed scalable and effective solutions for a variety of AutoML problems across data types (tabular, text, and image), including building LLM-based (GenAI) agents for AutoML. 
+At AWS, he has contributed to key services including **AWS SageMaker Canvas**, **AWS Lookout for Metrics**, and **SageMaker Unified Studio**, designing scalable managed ML solutions across data types. His work emphasizes the intersection of cutting-edge applied research and practical enterprise applications, with a track record of launching products that directly impact customer experience and business outcomes.
 
-He also has experience in designing and executing large-scale experiments and analyses to solve ML tasks with a focus on customer-facing solutions.
-In addition to his research experience, he has professional experience in software engineering that drives his interest in building real-world systems with customer impact.
+His technical expertise includes multiple sub-domains of MAchine Learning & AI, combined with strong software engineering skills that enable him to build robust, customer-facing ML systems at scale.

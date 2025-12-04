@@ -68,11 +68,11 @@ related_publications: true
     <div class="col-md-9">
       <div class="card h-100">
         <div class="card-body">
-          <ul class="list-unstyled">
-            <li>Designed and executed large-scale experiments to understand the effects of fine-tuning LLMs using PEFT methods (LoRA, qLoRA), uncovering overall performance envelopes and investigating failure conditions.</li>
-            <li>Conducted comprehensive analysis of the hyperparameter landscape for PEFT using multiple methodologies and performance profiling techniques.</li>
-            <li>Analyzed performance trade-offs when applying PEFT to domain-specific datasets in resource-constrained environments.</li>
-            <li>Experimented with multiple distributed training paradigms including Fully Sharded Data Parallel (FSDP), Distributed Data Parallel (DDP), and Data Parallel (DP).</li>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Designed and executed large-scale experiments to understand the effects of fine-tuning LLMs using PEFT methods (LoRA, qLoRA), uncovering overall performance envelopes and investigating failure conditions.</li>
+            <li class="list-group-item">Conducted comprehensive analysis of the hyperparameter landscape for PEFT using multiple methodologies and performance profiling techniques.</li>
+            <li class="list-group-item">Analyzed performance trade-offs when applying PEFT to domain-specific datasets in resource-constrained environments.</li>
+            <li class="list-group-item">Experimented with multiple distributed training paradigms including Fully Sharded Data Parallel (FSDP), Distributed Data Parallel (DDP), and Data Parallel (DP).</li>
           </ul>
         </div>
       </div>
@@ -89,13 +89,13 @@ related_publications: true
     <div class="col-md-9">
       <div class="card h-100">
         <div class="card-body">
-          <ul class="list-unstyled">
-            <li>Large Language Models</li>
-            <li>PEFT</li>
-            <li>LoRA</li>
-            <li>qLoRA</li>
-            <li>AWS SageMaker Canvas</li>
-            <li>Distributed Training</li>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Large Language Models</li>
+            <li class="list-group-item">PEFT</li>
+            <li class="list-group-item">LoRA</li>
+            <li class="list-group-item">qLoRA</li>
+            <li class="list-group-item">AWS SageMaker Canvas</li>
+            <li class="list-group-item">Distributed Training</li>
           </ul>
         </div>
       </div>

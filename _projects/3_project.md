@@ -52,20 +52,20 @@ related_publications: true
         <div class="card-body">
           <div class="mb-3">
             <h5 class="text-primary">Phase 1: Automated ML Pipeline Builder</h5>
-            <ul class="list-unstyled ms-3">
-              <li>• Develop automated ML pipeline with best practices, reproducibility, and low latency</li>
-              <li>• Handle extremely noisy data with mixed types and inconsistent formats</li>
-              <li>• Perform advanced data type detection and task type detection</li>
-              <li>• Implement automated feature engineering</li>
-              <li>• Enforce user-driven training time limits</li>
+            <ul class="list-group list-group-flush ms-3">
+              <li class="list-group-item">Develop automated ML pipeline with best practices, reproducibility, and low latency</li>
+              <li class="list-group-item">Handle extremely noisy data with mixed types and inconsistent formats</li>
+              <li class="list-group-item">Perform advanced data type detection and task type detection</li>
+              <li class="list-group-item">Implement automated feature engineering</li>
+              <li class="list-group-item">Enforce user-driven training time limits</li>
             </ul>
           </div>
           <div>
             <h5 class="text-primary">Phase 2: Customizable Pipeline Sequencing</h5>
-            <ul class="list-unstyled ms-3">
-              <li>• Allow users to customize ML pipeline by choosing from operations</li>
-              <li>• Automatically determine correct sequence of transformations</li>
-              <li>• Ensure proper ordering to prevent unintended perturbations</li>
+            <ul class="list-group list-group-flush ms-3">
+              <li class="list-group-item">Allow users to customize ML pipeline by choosing from operations</li>
+              <li class="list-group-item">Automatically determine correct sequence of transformations</li>
+              <li class="list-group-item">Ensure proper ordering to prevent unintended perturbations</li>
             </ul>
           </div>
         </div>
@@ -85,21 +85,21 @@ related_publications: true
         <div class="card-body">
           <div class="mb-3">
             <h5 class="text-success">Phase 1 Implementation</h5>
-            <ul class="list-unstyled">
-              <li><strong>Framework Development:</strong> Created framework extending scikit-learn with open source libraries, supporting multiple models with XGBoost as default</li>
-              <li><strong>Training Time Enforcement:</strong> Modified XGBoost's internal training loop using callbacks to accurately track training time and gracefully exit</li>
-              <li><strong>Robust Data Type Detection:</strong> Developed heuristic using data statistics and practical thresholds that worked in edge cases where pandas would fail</li>
-              <li><strong>LLM-powered Feature Engineering:</strong> Implemented chained 2-step method: candidate feature logic generation, then code generation with multiple trials and checks</li>
-              <li><strong>Large-scale Testing:</strong> Created benchmark with over 300 datasets for comprehensive evaluation</li>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Framework Development:</strong> Created framework extending scikit-learn with open source libraries, supporting multiple models with XGBoost as default</li>
+              <li class="list-group-item"><strong>Training Time Enforcement:</strong> Modified XGBoost's internal training loop using callbacks to accurately track training time and gracefully exit</li>
+              <li class="list-group-item"><strong>Robust Data Type Detection:</strong> Developed heuristic using data statistics and practical thresholds that worked in edge cases where pandas would fail</li>
+              <li class="list-group-item"><strong>LLM-powered Feature Engineering:</strong> Implemented chained 2-step method: candidate feature logic generation, then code generation with multiple trials and checks</li>
+              <li class="list-group-item"><strong>Large-scale Testing:</strong> Created benchmark with over 300 datasets for comprehensive evaluation</li>
             </ul>
           </div>
           <div>
             <h5 class="text-success">Phase 2 Implementation</h5>
-            <ul class="list-unstyled">
-              <li><strong>Transform Analysis:</strong> Surveyed prior works and analyzed situations where incorrect ordering would cause issues</li>
-              <li><strong>Partial Order Development:</strong> Established ordering rules (e.g., standardization before dropping missing values, normalization before oversampling)</li>
-              <li><strong>Transform Matrix:</strong> Created matrix of transforms and meta-characteristics describing prerequisites and post-effects</li>
-              <li><strong>Rule-based Algorithm:</strong> Developed topological ordering algorithm ensuring correct transform sequencing</li>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Transform Analysis:</strong> Surveyed prior works and analyzed situations where incorrect ordering would cause issues</li>
+              <li class="list-group-item"><strong>Partial Order Development:</strong> Established ordering rules (e.g., standardization before dropping missing values, normalization before oversampling)</li>
+              <li class="list-group-item"><strong>Transform Matrix:</strong> Created matrix of transforms and meta-characteristics describing prerequisites and post-effects</li>
+              <li class="list-group-item"><strong>Rule-based Algorithm:</strong> Developed topological ordering algorithm ensuring correct transform sequencing</li>
             </ul>
           </div>
         </div>
@@ -117,12 +117,12 @@ related_publications: true
     <div class="col-md-9">
       <div class="card h-100">
         <div class="card-body">
-          <ul class="list-unstyled">
-            <li><strong>Superior Performance:</strong> Data type detection heuristic outperformed competing state-of-the-art baselines, especially AutoGluon</li>
-            <li><strong>Improved Efficiency:</strong> Achieved better latency than competing baselines while maintaining comparable performance</li>
-            <li><strong>Simplified Effectiveness:</strong> Demonstrated that standard ML pipeline with XGBoost was simple yet effective approach</li>
-            <li><strong>Successful Launch:</strong> Product was successfully launched with Phase 1 implementation in production</li>
-            <li><strong>Business Impact:</strong> Enabled business users to leverage ML through intuitive chat interface without requiring ML expertise</li>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Superior Performance:</strong> Data type detection heuristic outperformed competing state-of-the-art baselines, especially AutoGluon</li>
+            <li class="list-group-item"><strong>Improved Efficiency:</strong> Achieved better latency than competing baselines while maintaining comparable performance</li>
+            <li class="list-group-item"><strong>Simplified Effectiveness:</strong> Demonstrated that standard ML pipeline with XGBoost was simple yet effective approach</li>
+            <li class="list-group-item"><strong>Successful Launch:</strong> Product was successfully launched with Phase 1 implementation in production</li>
+            <li class="list-group-item"><strong>Business Impact:</strong> Enabled business users to leverage ML through intuitive chat interface without requiring ML expertise</li>
           </ul>
         </div>
       </div>
@@ -139,15 +139,15 @@ related_publications: true
     <div class="col-md-9">
       <div class="card h-100">
         <div class="card-body">
-          <ul class="list-unstyled">
-            <li>Automated Machine Learning (AutoML)</li>
-            <li>ML Pipeline Automation</li>
-            <li>Feature Engineering</li>
-            <li>XGBoost Optimization</li>
-            <li>Data Type Detection</li>
-            <li>Transform Sequencing</li>
-            <li>LLM-powered Code Generation</li>
-            <li>Scikit-learn Framework</li>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Automated Machine Learning (AutoML)</li>
+            <li class="list-group-item">ML Pipeline Automation</li>
+            <li class="list-group-item">Feature Engineering</li>
+            <li class="list-group-item">XGBoost Optimization</li>
+            <li class="list-group-item">Data Type Detection</li>
+            <li class="list-group-item">Transform Sequencing</li>
+            <li class="list-group-item">LLM-powered Code Generation</li>
+            <li class="list-group-item">Scikit-learn Framework</li>
           </ul>
         </div>
       </div>

@@ -68,13 +68,13 @@ related_publications: true
     <div class="col-md-9">
       <div class="card h-100">
         <div class="card-body">
-          <ul class="list-unstyled">
-            <li><strong>Algorithm Evaluation:</strong> Benchmarked RCF alternatives (dilated 1-D CNNs, Matrix Profile) against latency SLA and internal datasets.</li>
-            <li><strong>Evaluation Framework:</strong> Implemented Point-Adjusted Precision/Recall metrics for comprehensive point and range anomaly detection evaluation.</li>
-            <li><strong>Score Normalizer:</strong> Designed novel ensemble-based normalizer using data sketches to transform raw RCF scores into interpretable percentile values.</li>
-            <li><strong>Statistical Validation:</strong> Validated normalizer robustness through rigorous testing (qualitative and quantitative) for production deployment.</li>
-            <li><strong>Change-Point Detection:</strong> Developed online detector using ACF and Matrix Profile for enhanced time series shift detection.</li>
-            <li><strong>Dataset Expansion:</strong> Integrated UCR time series data to strengthen benchmarking capabilities.</li>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Algorithm Evaluation:</strong> Benchmarked RCF alternatives (dilated 1-D CNNs, Matrix Profile) against latency SLA and internal datasets.</li>
+            <li class="list-group-item"><strong>Evaluation Framework:</strong> Implemented Point-Adjusted Precision/Recall metrics for comprehensive point and range anomaly detection evaluation.</li>
+            <li class="list-group-item"><strong>Score Normalizer:</strong> Designed novel ensemble-based normalizer using data sketches to transform raw RCF scores into interpretable percentile values.</li>
+            <li class="list-group-item"><strong>Statistical Validation:</strong> Validated normalizer robustness through rigorous testing (qualitative and quantitative) for production deployment.</li>
+            <li class="list-group-item"><strong>Change-Point Detection:</strong> Developed online detector using ACF and Matrix Profile for enhanced time series shift detection.</li>
+            <li class="list-group-item"><strong>Dataset Expansion:</strong> Integrated UCR time series data to strengthen benchmarking capabilities.</li>
           </ul>
         </div>
       </div>
@@ -91,11 +91,11 @@ related_publications: true
     <div class="col-md-9">
       <div class="card h-100">
         <div class="card-body">
-          <ul class="list-unstyled">
-            <li>Time Series Anomaly Detection</li>
-            <li>Matrix Profile</li>
-            <li>Change-Point Detection</li>
-            <li>AWS Lookout for Metrics</li>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Time Series Anomaly Detection</li>
+            <li class="list-group-item">Matrix Profile</li>
+            <li class="list-group-item">Change-Point Detection</li>
+            <li class="list-group-item">AWS Lookout for Metrics</li>
           </ul>
         </div>
       </div>

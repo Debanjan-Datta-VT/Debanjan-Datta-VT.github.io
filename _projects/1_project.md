@@ -82,10 +82,10 @@ related_publications: true
     <div class="col-md-9">
       <div class="card h-100">
         <div class="card-body">
-          <ul class="list-unstyled">
-            <li><strong>Dataset & Benchmark Development:</strong> Created a large-scale dataset and benchmark for complex multi-step temporal question answering involving multiple entities, establishing evaluation standards for temporal knowledge systems.</li>
-            <li><strong>Temporal Knowledge Graph Design:</strong> Developed an innovative memory representation utilizing a novel knowledge graph formulation that explicitly encodes temporal relationships between entities and events.</li>
-            <li><strong>Agentic RAG Architecture:</strong> Designed a novel retrieval and ranking architecture for Agentic RAG systems, optimizing performance for temporal query processing and knowledge retrieval.</li>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Dataset & Benchmark Development:</strong> Created a large-scale dataset and benchmark for complex multi-step temporal question answering involving multiple entities, establishing evaluation standards for temporal knowledge systems.</li>
+            <li class="list-group-item"><strong>Temporal Knowledge Graph Design:</strong> Developed an innovative memory representation utilizing a novel knowledge graph formulation that explicitly encodes temporal relationships between entities and events.</li>
+            <li class="list-group-item"><strong>Agentic RAG Architecture:</strong> Designed a novel retrieval and ranking architecture for Agentic RAG systems, optimizing performance for temporal query processing and knowledge retrieval.</li>
           </ul>
         </div>
       </div>

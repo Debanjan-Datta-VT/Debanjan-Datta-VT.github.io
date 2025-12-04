@@ -1,80 +1,149 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Data Processing Agent
+description: MCP-based Data Analysis Server for SageMaker Unified Studio
+importance: 5
+category: Amazon Web Services
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="container-fluid"> 
+  <!-- Project Overview Section -->
+  <div class="row mb-4">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title text-center mb-4">Project Overview</h2>
+          <p class="lead text-center">
+            Developed a MCP-based solution for Data Preprocessing as part of DS agent to build ML pipeline in SageMaker Unified Studio, featuring innovative stateless server design and automated evaluation framework.
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+  <!-- Problem Statement Section -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-3">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <h3 class="text-primary mb-0">Situation & Context</h3>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card h-100">
+        <div class="card-body">
+          <p class="card-text">
+            For a chat-based Data Science agent based on the MCP protocol, there was a need to create a robust MCP server that could guide users through data preparation and help them understand data quality. The challenge was to design a system that could regulate the behavior of the MCP Client through a stateless server while ensuring all pre-conditions and checks were satisfied.
+          </p>  
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Task Section -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-3">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <h3 class="text-warning mb-0">Task</h3>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="mb-3">
+            <h5 class="text-primary">Core Development Objectives</h5>
+            <ul class="list-group list-group-flush ms-3">
+              <li class="list-group-item">Design and implement MCP Server for data analysis with ML model training capabilities</li>
+              <li class="list-group-item">Ensure pre-conditions and checks are satisfied through stateless server design</li>
+              <li class="list-group-item">Regulate MCP Client behavior through clever tool return value design</li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-primary">Additional Responsibilities</h5>
+            <ul class="list-group list-group-flush ms-3">
+              <li class="list-group-item">Work with Product team to disambiguate scope and solve issues at different project stages</li>
+              <li class="list-group-item">Create automated evaluation framework for MCP server assessment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Action/Implementation Section -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-3">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <h3 class="text-info mb-0">Action & Implementation</h3>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="mb-3">
+            <h5 class="text-success">MCP Server Development</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Stateless Server Architecture:</strong> Designed innovative MCP server that regulates MCP Client (Q) behavior through stateless design principles</li>
+              <li class="list-group-item"><strong>Scientific Novelty:</strong> Implemented pre-conditions and checks satisfaction through thorough experimentation and clever tool return value design</li>
+              <li class="list-group-item"><strong>LLM Guidance System:</strong> Crafted tool return values that guide the LLM on which tool to utilize next and how, beyond just functional elements</li>
+              <li class="list-group-item"><strong>ML Pipeline Integration:</strong> Added subsequent ML model training capabilities to the data analysis server</li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-success">Automated Evaluation Framework</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Proactive Framework Creation:</strong> Independently developed automated evaluation framework for MCP server with Q CLI as MCP Client</li>
+              <li class="list-group-item"><strong>LLM-as-a-Judge System:</strong> Set up sophisticated evaluation system with customized user journeys for multi-dataset evaluation</li>
+              <li class="list-group-item"><strong>Dynamic Correction Capability:</strong> Implemented ability to provide corrective inputs dynamically for unintended trajectories from Q CLI</li>
+              <li class="list-group-item"><strong>Product Collaboration:</strong> Worked closely with Product team to disambiguate scope and solve issues throughout project lifecycle</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Results Section -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-3">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <h3 class="text-success mb-0">Results & Impact</h3>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card h-100">
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Innovative Server Design:</strong> Successfully implemented stateless MCP server with novel approach to client behavior regulation</li>
+            <li class="list-group-item"><strong>Enhanced Data Quality Understanding:</strong> Enabled users to better understand data quality through guided data preparation processes</li>
+            <li class="list-group-item"><strong>Robust Evaluation Framework:</strong> Created non-trivial automated evaluation system capable of dynamic correction for uncontrolled Q CLI outputs</li>
+            <li class="list-group-item"><strong>Scalable Solution:</strong> Framework supports evaluation across multiple datasets with customized user journey scenarios</li>
+            <li class="list-group-item"><strong>Enterprise Integration:</strong> Successfully integrated with SageMaker Unified Studio for enterprise-scale ML pipeline development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Keywords -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-3">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <h3 class="text-info mb-0">Keywords</h3>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card h-100">
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">MCP Protocol</li>
+            <li class="list-group-item">Data Analysis Server</li>
+            <li class="list-group-item">LLM-as-a-Judge</li>
+            <li class="list-group-item">Automated Evaluation Framework</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

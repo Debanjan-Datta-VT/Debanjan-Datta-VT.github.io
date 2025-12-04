@@ -66,14 +66,14 @@ ninja.data = [{
           description: "AWS Sagemaker Canvas Enterprise Project Roadmap",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-automated-ml-pipeline-creator",
+          title: 'Automated ML Pipeline Creator',
+          description: "Chat-based ML Service with Automated Pipeline Generation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-time-series-anomaly-detection",
           title: 'Time Series Anomaly Detection',
           description: "AWS Lookout for Metrics Service Enhancement",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",

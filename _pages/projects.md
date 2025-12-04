@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: 
-nav: false
+nav: true
 nav_order: 4
 display_categories: [Amazon Web Services, Graduate School]
 horizontal: false

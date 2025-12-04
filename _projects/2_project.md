@@ -33,7 +33,7 @@ related_publications: true
       <div class="card h-100">
         <div class="card-body">
           <p class="card-text">
-          The research problem was to find the correct set of hyperparmaters, and training setting for a range of SoTA LLM models to be trained through Parameter Efficient Finetuning (PEFT) methods.
+          This research addressed the challenge of determining optimal hyperparameters and training configurations for state-of-the-art (SoTA) Large Language Models when implementing Parameter Efficient Fine-tuning (PEFT) methods. The goal was to establish best practices for fine-tuning these models while maintaining computational efficiency and achieving superior performance across diverse use cases.
           </p>  
         </div>
       </div>
@@ -53,7 +53,7 @@ related_publications: true
           <p class="card-text">
           </p>
           <ul class="mt-3">
-          <li> Allowing customers to finetune LLM models for business specific problems, with optimized cost and performance. This was part of AWS's managed AutoML offering.</li>
+          <li>Enabled enterprise customers to fine-tune Large Language Models for domain-specific business applications while maintaining optimal cost efficiency and performance. This capability was integrated into AWS SageMaker Canvas, Amazon's managed machine learning service for no-code/low-code model development.</li>
           </ul>
         </div>
       </div>
@@ -71,10 +71,10 @@ related_publications: true
       <div class="card h-100">
         <div class="card-body">
           <ul class="list-unstyled">
-            <li> Designed and executed large scale experiments to understand effects of finetuning LLM using PEFT methods (LoRA, qLoRA), to uncover overall performance envelope and investigate failure conditions.</li>
-            <li> Deep dived into the hyperparameter landscape for PEFT with multiple methodologies, and performance profiling.</li>
-            <li> Analysed performance trade-offs, in applying PEFT on domain specific datasets in resource constrained environments.</li>
-            <li> Experimented with multiple distributed paradigns such as FSP, DDP and DP. </li>
+            <li>Designed and executed large-scale experiments to understand the effects of fine-tuning LLMs using PEFT methods (LoRA, qLoRA), uncovering overall performance envelopes and investigating failure conditions.</li>
+            <li>Conducted comprehensive analysis of the hyperparameter landscape for PEFT using multiple methodologies and performance profiling techniques.</li>
+            <li>Analyzed performance trade-offs when applying PEFT to domain-specific datasets in resource-constrained environments.</li>
+            <li>Experimented with multiple distributed training paradigms including Fully Sharded Data Parallel (FSDP), Distributed Data Parallel (DDP), and Data Parallel (DP).</li>
           </ul>
         </div>
       </div>

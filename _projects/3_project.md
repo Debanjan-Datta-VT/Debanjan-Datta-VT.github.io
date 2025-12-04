@@ -69,12 +69,12 @@ related_publications: true
       <div class="card h-100">
         <div class="card-body">
           <ul class="list-unstyled">
-            <li><strong>Algorithm Evaluation:</strong> Conducted comprehensive literature survey and identified two promising alternatives to Random Cut Forest (RCF): deep learning approach using dilated 1-D CNNs and Matrix Profile. Benchmarked performance against latency SLA requirements and internal datasets.</li>
-            <li><strong>Evaluation Framework:</strong> Developed robust benchmarking capabilities using Point-Adjusted Precision and Recall metrics to properly evaluate both point and range anomaly detection, addressing gaps left by the previous team.</li>
-            <li><strong>Score Normalizer Design:</strong> Designed and implemented a novel score normalizer using an ensemble of data sketches to transform RCF's raw scores into interpretable values. Leveraged the mathematical property that percentile scores from the CDF are bounded and uniformly distributed.</li>
-            <li><strong>Statistical Validation:</strong> Validated the normalizer's robustness through rigorous statistical testing, including Q-Q plots, ensuring production-ready reliability.</li>
-            <li><strong>Change-Point Detection:</strong> Developed and proposed a new online change-point detector using Autocorrelation Factor (ACF) and Matrix Profile to enhance detection capabilities for time series shifts.</li>
-            <li><strong>Dataset Curation:</strong> Extended evaluation datasets by incorporating UCR time series data to improve benchmarking comprehensiveness.</li>
+            <li><strong>Algorithm Evaluation:</strong> Benchmarked RCF alternatives (dilated 1-D CNNs, Matrix Profile) against latency SLA and internal datasets.</li>
+            <li><strong>Evaluation Framework:</strong> Implemented Point-Adjusted Precision/Recall metrics for comprehensive point and range anomaly detection evaluation.</li>
+            <li><strong>Score Normalizer:</strong> Designed novel ensemble-based normalizer using data sketches to transform raw RCF scores into interpretable percentile values.</li>
+            <li><strong>Statistical Validation:</strong> Validated normalizer robustness through rigorous testing (qualitative and quantitative) for production deployment.</li>
+            <li><strong>Change-Point Detection:</strong> Developed online detector using ACF and Matrix Profile for enhanced time series shift detection.</li>
+            <li><strong>Dataset Expansion:</strong> Integrated UCR time series data to strengthen benchmarking capabilities.</li>
           </ul>
         </div>
       </div>

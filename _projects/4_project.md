@@ -1,80 +1,105 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Time Series Anomaly Detection
+description: AWS Lookout for Metrics Service Enhancement
+importance: 2
+category: Amazon Web Services
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="container-fluid"> 
+  <!-- Project Overview Section -->
+  <div class="row mb-4">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title text-center mb-4">Project Overview</h2>
+          <p class="lead text-center">
+            Enhanced AWS Lookout for Metrics anomaly detection service by improving customer interpretability and evaluating detection accuracy while maintaining real-time, low-latency performance guarantees.
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+  <!-- Problem Statement Section -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-3">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <h3 class="text-primary mb-0">Situation & Context</h3>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card h-100">
+        <div class="card-body">
+          <p class="card-text">
+            When my team took over ownership of AWS Lookout for Metrics, an anomaly detection service, we inherited two key challenges: customers struggled to understand our anomaly scores, and the service had some performance gaps. I was tasked with investigating improvement opportunities across both customer experience and detection accuracy, while ensuring we maintained our real-time, low-latency service guarantees.
+          </p>  
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Business Impact Section -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-3">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <h3 class="text-success mb-0">Business Impact</h3>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card h-100">
+        <div class="card-body">
+          <p class="card-text">
+            The score normalizer was successfully launched to production and significantly improved customer satisfaction—customers could now interpret what the anomaly scores meant, which was one of our primary pain points. This directly addressed the interpretability complaints we'd been receiving from enterprise customers using AWS Lookout for Metrics for business-critical monitoring applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Technical Details Section -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-3">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <h3 class="text-info mb-0">Technical Details & Contributions</h3>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card h-100">
+        <div class="card-body">
+          <ul class="list-unstyled">
+            <li><strong>Algorithm Evaluation:</strong> Benchmarked RCF alternatives (dilated 1-D CNNs, Matrix Profile) against latency SLA and internal datasets.</li>
+            <li><strong>Evaluation Framework:</strong> Implemented Point-Adjusted Precision/Recall metrics for comprehensive point and range anomaly detection evaluation.</li>
+            <li><strong>Score Normalizer:</strong> Designed novel ensemble-based normalizer using data sketches to transform raw RCF scores into interpretable percentile values.</li>
+            <li><strong>Statistical Validation:</strong> Validated normalizer robustness through rigorous testing (qualitative and quantitative) for production deployment.</li>
+            <li><strong>Change-Point Detection:</strong> Developed online detector using ACF and Matrix Profile for enhanced time series shift detection.</li>
+            <li><strong>Dataset Expansion:</strong> Integrated UCR time series data to strengthen benchmarking capabilities.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Keywords -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-3">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <h3 class="text-info mb-0">Keywords</h3>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card h-100">
+        <div class="card-body">
+          <ul class="list-unstyled">
+            <li>Time Series Anomaly Detection</li>
+            <li>Matrix Profile</li>
+            <li>Change-Point Detection</li>
+            <li>AWS Lookout for Metrics</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

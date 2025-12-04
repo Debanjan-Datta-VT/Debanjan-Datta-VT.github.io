@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Time Series Anomaly Detection
-description: AWS Lookout for Metrics Service Enhancement
+title: Automated ML Pipeline Creator
+description: Chat-based ML Service with Automated Pipeline Generation
 importance: 2
 category: Amazon Web Services
 related_publications: true
@@ -15,7 +15,7 @@ related_publications: true
         <div class="card-body">
           <h2 class="card-title text-center mb-4">Project Overview</h2>
           <p class="lead text-center">
-            Enhanced AWS Lookout for Metrics anomaly detection service by improving customer interpretability and evaluating detection accuracy while maintaining real-time, low-latency performance guarantees.
+            Designed and developed a backend automated ML pipeline creator for a managed ML service that enables business users to solve problems through a chat-based interface, featuring robust data preprocessing, automated feature engineering, and customizable pipeline sequencing.
           </p>
         </div>
       </div>
@@ -33,48 +33,96 @@ related_publications: true
       <div class="card h-100">
         <div class="card-body">
           <p class="card-text">
-            When my team took over ownership of AWS Lookout for Metrics, an anomaly detection service, we inherited two key challenges: customers struggled to understand our anomaly scores, and the service had some performance gaps. I was tasked with investigating improvement opportunities across both customer experience and detection accuracy, while ensuring we maintained our real-time, low-latency service guarantees.
+            Our managed ML service wanted a chat-based product which would support business users bringing in problems and solving them using ML. My responsibility was designing and developing the backend automated ML pipeline creator that would preprocess data and train ML models. Existing out-of-the-box AutoML solutions like AutoGluon were memory intensive and slower due to ensembles and meta-learning approaches, requiring a more efficient solution.
           </p>  
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Business Impact Section -->
+  <!-- Task Section -->
   <div class="row mb-4">
     <div class="col-md-3 mb-3">
       <div class="d-flex align-items-center justify-content-center h-100">
-        <h3 class="text-success mb-0">Business Impact</h3>
+        <h3 class="text-warning mb-0">Task</h3>
       </div>
     </div>
     <div class="col-md-9">
       <div class="card h-100">
         <div class="card-body">
-          <p class="card-text">
-            The score normalizer was successfully launched to production and significantly improved customer satisfaction—customers could now interpret what the anomaly scores meant, which was one of our primary pain points. This directly addressed the interpretability complaints we'd been receiving from enterprise customers using AWS Lookout for Metrics for business-critical monitoring applications.
-          </p>
+          <div class="mb-3">
+            <h5 class="text-primary">Phase 1: Automated ML Pipeline Builder</h5>
+            <ul class="list-unstyled ms-3">
+              <li>• Develop automated ML pipeline with best practices, reproducibility, and low latency</li>
+              <li>• Handle extremely noisy data with mixed types and inconsistent formats</li>
+              <li>• Perform advanced data type detection and task type detection</li>
+              <li>• Implement automated feature engineering</li>
+              <li>• Enforce user-driven training time limits</li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-primary">Phase 2: Customizable Pipeline Sequencing</h5>
+            <ul class="list-unstyled ms-3">
+              <li>• Allow users to customize ML pipeline by choosing from operations</li>
+              <li>• Automatically determine correct sequence of transformations</li>
+              <li>• Ensure proper ordering to prevent unintended perturbations</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Technical Details Section -->
+  <!-- Action/Implementation Section -->
   <div class="row mb-4">
     <div class="col-md-3 mb-3">
       <div class="d-flex align-items-center justify-content-center h-100">
-        <h3 class="text-info mb-0">Technical Details & Contributions</h3>
+        <h3 class="text-info mb-0">Action & Implementation</h3>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="mb-3">
+            <h5 class="text-success">Phase 1 Implementation</h5>
+            <ul class="list-unstyled">
+              <li><strong>Framework Development:</strong> Created framework extending scikit-learn with open source libraries, supporting multiple models with XGBoost as default</li>
+              <li><strong>Training Time Enforcement:</strong> Modified XGBoost's internal training loop using callbacks to accurately track training time and gracefully exit</li>
+              <li><strong>Robust Data Type Detection:</strong> Developed heuristic using data statistics and practical thresholds that worked in edge cases where pandas would fail</li>
+              <li><strong>LLM-powered Feature Engineering:</strong> Implemented chained 2-step method: candidate feature logic generation, then code generation with multiple trials and checks</li>
+              <li><strong>Large-scale Testing:</strong> Created benchmark with over 300 datasets for comprehensive evaluation</li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-success">Phase 2 Implementation</h5>
+            <ul class="list-unstyled">
+              <li><strong>Transform Analysis:</strong> Surveyed prior works and analyzed situations where incorrect ordering would cause issues</li>
+              <li><strong>Partial Order Development:</strong> Established ordering rules (e.g., standardization before dropping missing values, normalization before oversampling)</li>
+              <li><strong>Transform Matrix:</strong> Created matrix of transforms and meta-characteristics describing prerequisites and post-effects</li>
+              <li><strong>Rule-based Algorithm:</strong> Developed topological ordering algorithm ensuring correct transform sequencing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Results Section -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-3">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <h3 class="text-success mb-0">Results & Impact</h3>
       </div>
     </div>
     <div class="col-md-9">
       <div class="card h-100">
         <div class="card-body">
           <ul class="list-unstyled">
-            <li><strong>Algorithm Evaluation:</strong> Benchmarked RCF alternatives (dilated 1-D CNNs, Matrix Profile) against latency SLA and internal datasets.</li>
-            <li><strong>Evaluation Framework:</strong> Implemented Point-Adjusted Precision/Recall metrics for comprehensive point and range anomaly detection evaluation.</li>
-            <li><strong>Score Normalizer:</strong> Designed novel ensemble-based normalizer using data sketches to transform raw RCF scores into interpretable percentile values.</li>
-            <li><strong>Statistical Validation:</strong> Validated normalizer robustness through rigorous testing (qualitative and quantitative) for production deployment.</li>
-            <li><strong>Change-Point Detection:</strong> Developed online detector using ACF and Matrix Profile for enhanced time series shift detection.</li>
-            <li><strong>Dataset Expansion:</strong> Integrated UCR time series data to strengthen benchmarking capabilities.</li>
+            <li><strong>Superior Performance:</strong> Data type detection heuristic outperformed competing state-of-the-art baselines, especially AutoGluon</li>
+            <li><strong>Improved Efficiency:</strong> Achieved better latency than competing baselines while maintaining comparable performance</li>
+            <li><strong>Simplified Effectiveness:</strong> Demonstrated that standard ML pipeline with XGBoost was simple yet effective approach</li>
+            <li><strong>Successful Launch:</strong> Product was successfully launched with Phase 1 implementation in production</li>
+            <li><strong>Business Impact:</strong> Enabled business users to leverage ML through intuitive chat interface without requiring ML expertise</li>
           </ul>
         </div>
       </div>
@@ -92,10 +140,14 @@ related_publications: true
       <div class="card h-100">
         <div class="card-body">
           <ul class="list-unstyled">
-            <li>Time Series Anomaly Detection</li>
-            <li>Matrix Profile</li>
-            <li>Change-Point Detection</li>
-            <li>AWS Lookout for Metrics</li>
+            <li>Automated Machine Learning (AutoML)</li>
+            <li>ML Pipeline Automation</li>
+            <li>Feature Engineering</li>
+            <li>XGBoost Optimization</li>
+            <li>Data Type Detection</li>
+            <li>Transform Sequencing</li>
+            <li>LLM-powered Code Generation</li>
+            <li>Scikit-learn Framework</li>
           </ul>
         </div>
       </div>

@@ -3,7 +3,7 @@ layout: page
 title: Parameter Efficient Finetuning for LLM
 description: AWS Sagemaker Canvas Enterprise Project Roadmap
 importance: 1
-category: AWS Project
+category: Amazon Web Services
 related_publications: true
 ---
 
@@ -15,7 +15,7 @@ related_publications: true
         <div class="card-body">
           <h2 class="card-title text-center mb-4">Project Overview</h2>
           <p class="lead text-center">
-           
+            Advanced research and development project focused on optimizing Parameter Efficient Fine-tuning (PEFT) methods for enterprise-scale Large Language Model deployment in AWS SageMaker Canvas.
           </p>
         </div>
       </div>
@@ -51,10 +51,8 @@ related_publications: true
       <div class="card h-100">
         <div class="card-body">
           <p class="card-text">
+            Enabled enterprise customers to fine-tune Large Language Models for domain-specific business applications while maintaining optimal cost efficiency and performance. This capability was integrated into AWS SageMaker Canvas, Amazon's managed machine learning service for no-code/low-code model development.
           </p>
-          <ul class="mt-3">
-          <li>Enabled enterprise customers to fine-tune Large Language Models for domain-specific business applications while maintaining optimal cost efficiency and performance. This capability was integrated into AWS SageMaker Canvas, Amazon's managed machine learning service for no-code/low-code model development.</li>
-          </ul>
         </div>
       </div>
     </div>
@@ -94,8 +92,14 @@ related_publications: true
           <ul class="list-unstyled">
             <li>Large Language Models</li>
             <li>PEFT</li>
+            <li>LoRA</li>
+            <li>qLoRA</li>
+            <li>AWS SageMaker Canvas</li>
+            <li>Distributed Training</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
+
+</div>

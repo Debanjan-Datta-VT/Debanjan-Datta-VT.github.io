@@ -3,7 +3,7 @@ layout: page
 title: Time Series Anomaly Detection
 description: AWS Lookout for Metrics Service Enhancement
 importance: 2
-category: AWS Project
+category: Amazon Web Services
 related_publications: true
 ---
 

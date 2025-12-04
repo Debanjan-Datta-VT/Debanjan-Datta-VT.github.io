@@ -76,9 +76,9 @@ ninja.data = [{
           description: "AWS Lookout for Metrics Service Enhancement",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-data-processing-agent",
+          title: 'Data Processing Agent',
+          description: "MCP-based Data Analysis Server for SageMaker Unified Studio",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
